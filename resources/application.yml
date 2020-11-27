@@ -1,0 +1,26 @@
+server:
+  port: 9901
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: true
+#spring:
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: file:///${user.home}/config-repo1
+#environments:
+#    dev:
+#        url: http://localhost:8082
+#        name: Developer Setup
+#    prod:
+#        url: http://localhost:8081
+#        name: My Cool App
+#my:
+#   servers:
+#       - http://localhost:8080
+#       - http://localhost:8081

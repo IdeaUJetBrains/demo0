@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: MyApp
+  cloud:
+    config:
+      uri: file:///${user.home}/config-repo1
+
+spring:
+  profiles: dev
+  cloud:
+    config:
+      uri: file:///${user.home}/config-repo1
